@@ -1,6 +1,6 @@
 package Lektion1;
 
-        public class Calculator {
+public class Calculator {
 
         private int num1, num2;
 

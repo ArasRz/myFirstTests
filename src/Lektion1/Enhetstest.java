@@ -6,6 +6,7 @@ public class Enhetstest {
 
     @Test
     void testAddition() {
+
         // Arrange
         Calculator calc = new Calculator(4, 3);
         int expected = 7;
