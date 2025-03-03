@@ -3,6 +3,13 @@ package Lektion2;
 public class PasswordCheck {
 
     public boolean check(String password) {
-        return true;
+
+        boolean isValid = false;
+
+        if(password.length() >= 8 ) {
+            isValid =  true;
+        }
+
+        return isValid;
     }
 }
